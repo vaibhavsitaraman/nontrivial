@@ -4,7 +4,7 @@ https://youtu.be/W4wwDbguwLo
 
 Selected as one of 137 fellow from among 4k+ applicants. Research direction:
 
-##Flow Matching for Joint Return Distributions in Correlated Hospital Surge-Capacity Allocation
+## Flow Matching for Joint Return Distributions in Correlated Hospital Surge-Capacity Allocation
 
 Flow matching as a way to learn the joint return distribution for hospital surge planning. Two regions (hub and spoke), six bed types, and a mutual-aid action. The question is whether modeling the reward dimensions together is better than those models that predict marginals and reconstruct the joint distribution.
 
