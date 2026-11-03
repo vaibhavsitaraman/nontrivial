@@ -1,0 +1,21 @@
+NJ-fitted joint model summary
+n_steps=15000  train_time=687.1s
+Fitted parameters: {'regime_severity': {'0': 0.0, '1': 1.741, '2': 3.0, '3': 2.016}, 'pandemic_loading_scale': 0.148849711476516, 'spillover_strength': 0.12280471585822125}
+Overall match: 7/16   Match on stable states: 7/7
+
+state  0  H=Baseline S=Baseline  tabular=S_to_H/conservative   learned=H_to_S/conservative   mismatch (oscillating)  CVaR: tabular=-15.466 learned=-14.812
+state  1  H=Baseline S=Rising    tabular=H_to_S/aggressive     learned=H_to_S/aggressive     MATCH (stable)  CVaR: tabular=-17.272 learned=-16.890
+state  2  H=Baseline S=Peak      tabular=H_to_S/aggressive     learned=H_to_S/aggressive     MATCH (stable)  CVaR: tabular=-18.886 learned=-18.144
+state  3  H=Baseline S=Waning    tabular=H_to_S/aggressive     learned=H_to_S/aggressive     MATCH (stable)  CVaR: tabular=-16.522 learned=-16.254
+state  4  H=Rising   S=Baseline  tabular=S_to_H/aggressive     learned=S_to_H/aggressive     MATCH (stable)  CVaR: tabular=-18.154 learned=-18.067
+state  5  H=Rising   S=Rising    tabular=S_to_H/aggressive     learned=H_to_S/conservative   mismatch (oscillating)  CVaR: tabular=-21.111 learned=-20.457
+state  6  H=Rising   S=Peak      tabular=H_to_S/aggressive     learned=H_to_S/aggressive     MATCH (stable)  CVaR: tabular=-22.720 learned=-22.327
+state  7  H=Rising   S=Waning    tabular=H_to_S/aggressive     learned=H_to_S/conservative   mismatch (oscillating)  CVaR: tabular=-20.491 learned=-20.071
+state  8  H=Peak     S=Baseline  tabular=S_to_H/aggressive     learned=S_to_H/aggressive     MATCH (stable)  CVaR: tabular=-19.732 learned=-19.184
+state  9  H=Peak     S=Rising    tabular=S_to_H/aggressive     learned=H_to_S/conservative   mismatch (oscillating)  CVaR: tabular=-22.455 learned=-22.333
+state 10  H=Peak     S=Peak      tabular=S_to_H/conservative   learned=H_to_S/conservative   mismatch (oscillating)  CVaR: tabular=-24.562 learned=-23.745
+state 11  H=Peak     S=Waning    tabular=S_to_H/aggressive     learned=H_to_S/conservative   mismatch (oscillating)  CVaR: tabular=-22.296 learned=-21.795
+state 12  H=Waning   S=Baseline  tabular=S_to_H/aggressive     learned=S_to_H/aggressive     MATCH (stable)  CVaR: tabular=-16.154 learned=-15.634
+state 13  H=Waning   S=Rising    tabular=S_to_H/aggressive     learned=H_to_S/aggressive     mismatch (oscillating)  CVaR: tabular=-19.140 learned=-18.216
+state 14  H=Waning   S=Peak      tabular=H_to_S/aggressive     learned=H_to_S/conservative   mismatch (oscillating)  CVaR: tabular=-20.722 learned=-20.402
+state 15  H=Waning   S=Waning    tabular=S_to_H/aggressive     learned=H_to_S/conservative   mismatch (oscillating)  CVaR: tabular=-18.775 learned=-17.780

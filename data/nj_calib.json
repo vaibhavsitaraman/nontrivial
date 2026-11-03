@@ -1,0 +1,90 @@
+{
+  "n_weeks": 44,
+  "date_range": [
+    "2021-07-01T00:00:00",
+    "2022-05-01T00:00:00"
+  ],
+  "resolved_fields": {
+    "facility_name": "hospital_name",
+    "city": "city",
+    "date": "collection_week",
+    "inpatient_beds": "inpatient_beds_7_day_avg",
+    "inpatient_beds_used": "inpatient_beds_used_7_day_avg",
+    "inpatient_beds_used_covid": "inpatient_beds_used_covid_7_day_avg",
+    "adult_icu_beds": "staffed_adult_icu_bed_occupancy_7_day_avg",
+    "adult_icu_beds_used_covid": "staffed_icu_adult_patients_confirmed_covid_7_day_avg",
+    "pediatric_covid": "total_pediatric_patients_hospitalized_confirmed_covid_7_day_avg"
+  },
+  "north_nj_cities": [
+    "newark",
+    "jersey city",
+    "paterson",
+    "hackensack",
+    "morristown",
+    "livingston",
+    "montclair",
+    "bloomfield",
+    "elizabeth",
+    "clifton"
+  ],
+  "south_nj_cities": [
+    "camden",
+    "cherry hill",
+    "vineland",
+    "voorhees",
+    "willingboro",
+    "mount holly",
+    "sewell",
+    "washington township",
+    "glassboro",
+    "millville"
+  ],
+  "inpatient_covid_util_pct_H": {
+    "mean": -58486.40910330913,
+    "std": 38584.25084009584,
+    "min": -142161.86762525642,
+    "max": 22.877723538516495,
+    "quartiles": [
+      -85095.90461825632,
+      -59414.399598766875,
+      -20069.366920471566
+    ]
+  },
+  "inpatient_covid_util_pct_S": {
+    "mean": -20173.254955281176,
+    "std": 22496.589361882045,
+    "min": -102562.50940170942,
+    "max": 31.416274104449787,
+    "quartiles": [
+      -34185.50341880342,
+      -33799.36178132206,
+      6.379085451694523
+    ]
+  },
+  "cross_region_correlation_inpatient": 0.23202560771688868,
+  "lagged_cross_correlation_H_leads_S": {
+    "0": 0.23202560771688868,
+    "1": 0.17458900808482877,
+    "2": -0.08064003930146409,
+    "3": -0.21591430637948275,
+    "4": -0.38411774993782827,
+    "5": -0.3024397427664374
+  },
+  "adult_icu_covid_util_pct_H": {
+    "mean": -1639197.3182649463,
+    "std": 652209.285047911
+  },
+  "adult_icu_covid_util_pct_S": {
+    "mean": -1290550.705799467,
+    "std": 940534.1645317199
+  },
+  "pediatric_covid_count_H": {
+    "mean": -258741.0,
+    "std": 83098.88219212937
+  },
+  "pediatric_covid_count_S": {
+    "mean": -512986.48344155843,
+    "std": 180486.35973873656
+  },
+  "cross_region_correlation_pediatric": 0.06041181238622527
+}
